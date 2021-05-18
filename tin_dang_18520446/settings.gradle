@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "tin_dang_18520446"
