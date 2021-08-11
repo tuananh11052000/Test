@@ -8,7 +8,7 @@ function Login() {
     const [isClick, setClick] = useState(false)
     const renderRedirect = () => {
         if (isClick == true)
-            return <Redirect to='/' />
+            return <Redirect to='/login' />
     }
     const loginFunc = () => {
         const name = document.getElementById("name").value;
