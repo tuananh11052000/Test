@@ -13,7 +13,7 @@ function Login() {
     const loginFunc = () => {
         const name = document.getElementById("name").value;
         let temp = name.toLowerCase();
-        if (temp == 'lê thị khánh huyền') {
+        if (temp == 'lê thanh hằng') {
             setClick(true)
         }
         else {
@@ -23,11 +23,11 @@ function Login() {
     return (
         <div className="container">
             <div>Bạn cần nhập đầy đủ họ tên: </div>
+            <div>(viết thường có dấu nhé) </div>
             <input id="name" />
             <div>
                 <Button color="success" onClick={() => loginFunc()}>Login</Button>
             </div>
-
             {renderRedirect()}
         </div>
     );
